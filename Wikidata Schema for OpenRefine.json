@@ -1,0 +1,890 @@
+{
+    "itemDocuments": [
+        {
+            "subject": {
+                "type": "wbitemvariable",
+                "columnName": "newItem"
+            },
+            "nameDescs": [
+                {
+                    "name_type": "LABEL_IF_NEW",
+                    "value": {
+                        "type": "wbmonolingualexpr",
+                        "language": {
+                            "type": "wblanguageconstant",
+                            "id": "en",
+                            "label": "en"
+                        },
+                        "value": {
+                            "type": "wbstringvariable",
+                            "columnName": "label"
+                        }
+                    }
+                },
+                {
+                    "name_type": "DESCRIPTION_IF_NEW",
+                    "value": {
+                        "type": "wbmonolingualexpr",
+                        "language": {
+                            "type": "wblanguageconstant",
+                            "id": "en",
+                            "label": "en"
+                        },
+                        "value": {
+                            "type": "wbstringvariable",
+                            "columnName": "Den"
+                        }
+                    }
+                }
+            ],
+            "statementGroups": [
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P5008",
+                        "label": "on focus list of Wikimedia project",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemconstant",
+                                "qid": "Q98970039",
+                                "label": "WikiProject PCC Wikidata Pilot/University of Washington"
+                            },
+                            "qualifiers": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P31",
+                        "label": "instance of",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemvariable",
+                                "columnName": "genre"
+                            },
+                            "qualifiers": [],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "value": {
+                                "type": "wbitemconstant",
+                                "qid": "Q47461344",
+                                "label": "written work"
+                            },
+                            "qualifiers": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P1476",
+                        "label": "title",
+                        "datatype": "monolingualtext"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbmonolingualexpr",
+                                "language": {
+                                    "type": "wblanguageconstant",
+                                    "id": "en",
+                                    "label": "en"
+                                },
+                                "value": {
+                                    "type": "wbstringvariable",
+                                    "columnName": "title"
+                                }
+                            },
+                            "qualifiers": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P1680",
+                        "label": "subtitle",
+                        "datatype": "monolingualtext"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbmonolingualexpr",
+                                "language": {
+                                    "type": "wblanguageconstant",
+                                    "id": "en",
+                                    "label": "en"
+                                },
+                                "value": {
+                                    "type": "wbstringvariable",
+                                    "columnName": "subtitle"
+                                }
+                            },
+                            "qualifiers": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P50",
+                        "label": "author",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemvariable",
+                                "columnName": "creator"
+                            },
+                            "qualifiers": [
+                                {
+                                    "prop": {
+                                        "type": "wbpropconstant",
+                                        "pid": "P1932",
+                                        "label": "stated as",
+                                        "datatype": "string"
+                                    },
+                                    "value": {
+                                        "type": "wbstringvariable",
+                                        "columnName": "statedAs"
+                                    }
+                                }
+                            ],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P9161",
+                        "label": "thesis committee member",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemvariable",
+                                "columnName": "degreeSupervisor 1"
+                            },
+                            "qualifiers": [
+                                {
+                                    "prop": {
+                                        "type": "wbpropconstant",
+                                        "pid": "P3831",
+                                        "label": "object has role",
+                                        "datatype": "wikibase-item"
+                                    },
+                                    "value": {
+                                        "type": "wbitemconstant",
+                                        "qid": "Q140686",
+                                        "label": "chairperson"
+                                    }
+                                }
+                            ],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P4101",
+                        "label": "dissertation submitted to",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemvariable",
+                                "columnName": "submittedTo"
+                            },
+                            "qualifiers": [],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P407",
+                        "label": "language of work or name",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemvariable",
+                                "columnName": "language"
+                            },
+                            "qualifiers": [],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P571",
+                        "label": "inception",
+                        "datatype": "time"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbdatevariable",
+                                "columnName": "inception"
+                            },
+                            "qualifiers": [],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P1104",
+                        "label": "number of pages",
+                        "datatype": "quantity"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbquantityexpr",
+                                "amount": {
+                                    "type": "wbstringvariable",
+                                    "columnName": "romanNumberedPage"
+                                },
+                                "unit": {
+                                    "type": "wbitemconstant",
+                                    "qid": "Q56761382",
+                                    "label": "Roman-numbered page"
+                                }
+                            },
+                            "qualifiers": [],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "value": {
+                                "type": "wbquantityexpr",
+                                "amount": {
+                                    "type": "wbstringvariable",
+                                    "columnName": "page"
+                                },
+                                "unit": {
+                                    "type": "wbitemconstant",
+                                    "qid": "Q1069725",
+                                    "label": "page"
+                                }
+                            },
+                            "qualifiers": [],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P953",
+                        "label": "full work available at URL",
+                        "datatype": "url"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "hdlURI"
+                            },
+                            "qualifiers": [],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P1184",
+                        "label": "Handle ID",
+                        "datatype": "external-id"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "hdlID"
+                            },
+                            "qualifiers": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P243",
+                        "label": "OCLC control number",
+                        "datatype": "external-id"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "OCLCID"
+                            },
+                            "qualifiers": [],
+                            "references": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": {
+                "type": "wbitemvariable",
+                "columnName": "creator"
+            },
+            "nameDescs": [
+                {
+                    "name_type": "LABEL_IF_NEW",
+                    "value": {
+                        "type": "wbmonolingualexpr",
+                        "language": {
+                            "type": "wblanguageconstant",
+                            "id": "en",
+                            "label": "en"
+                        },
+                        "value": {
+                            "type": "wbstringvariable",
+                            "columnName": "statedAs"
+                        }
+                    }
+                },
+                {
+                    "name_type": "DESCRIPTION_IF_NEW",
+                    "value": {
+                        "type": "wbmonolingualexpr",
+                        "language": {
+                            "type": "wblanguageconstant",
+                            "id": "en",
+                            "label": "en"
+                        },
+                        "value": {
+                            "type": "wbstringconstant",
+                            "value": "University of Washington, 2018"
+                        }
+                    }
+                }
+            ],
+            "statementGroups": [
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P31",
+                        "label": "instance of",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemconstant",
+                                "qid": "Q5",
+                                "label": "human"
+                            },
+                            "qualifiers": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P69",
+                        "label": "educated at",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemvariable",
+                                "columnName": "submittedTo"
+                            },
+                            "qualifiers": [
+                                {
+                                    "prop": {
+                                        "type": "wbpropconstant",
+                                        "pid": "P585",
+                                        "label": "point in time",
+                                        "datatype": "time"
+                                    },
+                                    "value": {
+                                        "type": "wbdatevariable",
+                                        "columnName": "inception"
+                                    }
+                                }
+                            ],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P1026",
+                        "label": "academic thesis",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemvariable",
+                                "columnName": "newItem"
+                            },
+                            "qualifiers": [],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P5008",
+                        "label": "on focus list of Wikimedia project",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemconstant",
+                                "qid": "Q98970039",
+                                "label": "WikiProject PCC Wikidata Pilot/University of Washington"
+                            },
+                            "qualifiers": [],
+                            "references": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": {
+                "type": "wbitemvariable",
+                "columnName": "degreeSupervisor 1"
+            },
+            "nameDescs": [
+                {
+                    "name_type": "LABEL_IF_NEW",
+                    "value": {
+                        "type": "wbmonolingualexpr",
+                        "language": {
+                            "type": "wblanguageconstant",
+                            "id": "en",
+                            "label": "en"
+                        },
+                        "value": {
+                            "type": "wbstringvariable",
+                            "columnName": "degreeSupervisor 1"
+                        }
+                    }
+                },
+                {
+                    "name_type": "DESCRIPTION_IF_NEW",
+                    "value": {
+                        "type": "wbmonolingualexpr",
+                        "language": {
+                            "type": "wblanguageconstant",
+                            "id": "en",
+                            "label": "en"
+                        },
+                        "value": {
+                            "type": "wbstringconstant",
+                            "value": "college teacher, University of Washington"
+                        }
+                    }
+                }
+            ],
+            "statementGroups": [
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P5008",
+                        "label": "on focus list of Wikimedia project",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemconstant",
+                                "qid": "Q98970039",
+                                "label": "WikiProject PCC Wikidata Pilot/University of Washington"
+                            },
+                            "qualifiers": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P31",
+                        "label": "instance of",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemconstant",
+                                "qid": "Q5",
+                                "label": "human"
+                            },
+                            "qualifiers": [],
+                            "references": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
