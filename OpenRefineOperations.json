@@ -6,11 +6,11 @@
       "mode": "row-based"
     },
     "columnName": "title",
-    "expression": "jython:import re\nexceptions = [\"and\", \"or\", \"the\", \"a\", \"of\", \"in\", \"to\", \"an\"]\ntitle = value\nlowercase_words = re.split(\" \", title.lower())\nfinal_words = [lowercase_words[0].capitalize()]\nfinal_words += [word if word in exceptions else word.capitalize() for word in lowercase_words[1:]]\nfinal_title = \" \".join(final_words)\nreturn (final_title)",
+    "expression": "jython:import re\nexceptions = [\"and\", \"or\", \"the\", \"a\", \"of\", \"in\", \"to\", \"an\", \"as\"]\ntitle = value\nlowercase_words = re.split(\" \", title.lower())\nfinal_words = [lowercase_words[0].capitalize()]\nfinal_words += [word if word in exceptions else word.capitalize() for word in lowercase_words[1:]]\nfinal_title = \" \".join(final_words)\nreturn (final_title)",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column title using expression jython:import re\nexceptions = [\"and\", \"or\", \"the\", \"a\", \"of\", \"in\", \"to\", \"an\"]\ntitle = value\nlowercase_words = re.split(\" \", title.lower())\nfinal_words = [lowercase_words[0].capitalize()]\nfinal_words += [word if word in exceptions else word.capitalize() for word in lowercase_words[1:]]\nfinal_title = \" \".join(final_words)\nreturn (final_title)"
+    "description": "Text transform on cells in column title using expression jython:import re\nexceptions = [\"and\", \"or\", \"the\", \"a\", \"of\", \"in\", \"to\", \"an\", \"as\"]\ntitle = value\nlowercase_words = re.split(\" \", title.lower())\nfinal_words = [lowercase_words[0].capitalize()]\nfinal_words += [word if word in exceptions else word.capitalize() for word in lowercase_words[1:]]\nfinal_title = \" \".join(final_words)\nreturn (final_title)"
   },
   {
     "op": "core/text-transform",
@@ -19,11 +19,11 @@
       "mode": "row-based"
     },
     "columnName": "subtitle",
-    "expression": "jython:import re\nexceptions = [\"and\", \"or\", \"the\", \"a\", \"of\", \"in\", \"to\", \"an\"]\ntitle = value\nlowercase_words = re.split(\" \", title.lower())\nfinal_words = [lowercase_words[0].capitalize()]\nfinal_words += [word if word in exceptions else word.capitalize() for word in lowercase_words[1:]]\nfinal_title = \" \".join(final_words)\nreturn (final_title)",
+    "expression": "jython:import re\nexceptions = [\"and\", \"or\", \"the\", \"a\", \"of\", \"in\", \"to\", \"an\", \"as\"]\ntitle = value\nlowercase_words = re.split(\" \", title.lower())\nfinal_words = [lowercase_words[0].capitalize()]\nfinal_words += [word if word in exceptions else word.capitalize() for word in lowercase_words[1:]]\nfinal_title = \" \".join(final_words)\nreturn (final_title)",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column subtitle using expression jython:import re\nexceptions = [\"and\", \"or\", \"the\", \"a\", \"of\", \"in\", \"to\", \"an\"]\ntitle = value\nlowercase_words = re.split(\" \", title.lower())\nfinal_words = [lowercase_words[0].capitalize()]\nfinal_words += [word if word in exceptions else word.capitalize() for word in lowercase_words[1:]]\nfinal_title = \" \".join(final_words)\nreturn (final_title)"
+    "description": "Text transform on cells in column subtitle using expression jython:import re\nexceptions = [\"and\", \"or\", \"the\", \"a\", \"of\", \"in\", \"to\", \"an\", \"as\"]\ntitle = value\nlowercase_words = re.split(\" \", title.lower())\nfinal_words = [lowercase_words[0].capitalize()]\nfinal_words += [word if word in exceptions else word.capitalize() for word in lowercase_words[1:]]\nfinal_title = \" \".join(final_words)\nreturn (final_title)"
   },
   {
     "op": "core/text-transform",
