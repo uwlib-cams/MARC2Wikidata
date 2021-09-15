@@ -532,6 +532,52 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "value": {
+                                "type": "wbquantityexpr",
+                                "amount": {
+                                    "type": "wbstringvariable",
+                                    "columnName": "leaves"
+                                },
+                                "unit": {
+                                    "type": "wbitemconstant",
+                                    "qid": "Q107256474",
+                                    "label": "leaf"
+                                }
+                            },
+                            "qualifiers": [],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },
@@ -613,271 +659,6 @@
                             "value": {
                                 "type": "wbstringvariable",
                                 "columnName": "OCLCID"
-                            },
-                            "qualifiers": [],
-                            "references": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "subject": {
-                "type": "wbitemvariable",
-                "columnName": "creator"
-            },
-            "nameDescs": [
-                {
-                    "name_type": "LABEL_IF_NEW",
-                    "value": {
-                        "type": "wbmonolingualexpr",
-                        "language": {
-                            "type": "wblanguageconstant",
-                            "id": "en",
-                            "label": "en"
-                        },
-                        "value": {
-                            "type": "wbstringvariable",
-                            "columnName": "statedAs"
-                        }
-                    }
-                },
-                {
-                    "name_type": "DESCRIPTION_IF_NEW",
-                    "value": {
-                        "type": "wbmonolingualexpr",
-                        "language": {
-                            "type": "wblanguageconstant",
-                            "id": "en",
-                            "label": "en"
-                        },
-                        "value": {
-                            "type": "wbstringconstant",
-                            "value": "University of Washington, 2018"
-                        }
-                    }
-                }
-            ],
-            "statementGroups": [
-                {
-                    "property": {
-                        "type": "wbpropconstant",
-                        "pid": "P31",
-                        "label": "instance of",
-                        "datatype": "wikibase-item"
-                    },
-                    "statements": [
-                        {
-                            "value": {
-                                "type": "wbitemconstant",
-                                "qid": "Q5",
-                                "label": "human"
-                            },
-                            "qualifiers": [],
-                            "references": []
-                        }
-                    ]
-                },
-                {
-                    "property": {
-                        "type": "wbpropconstant",
-                        "pid": "P69",
-                        "label": "educated at",
-                        "datatype": "wikibase-item"
-                    },
-                    "statements": [
-                        {
-                            "value": {
-                                "type": "wbitemvariable",
-                                "columnName": "submittedTo"
-                            },
-                            "qualifiers": [
-                                {
-                                    "prop": {
-                                        "type": "wbpropconstant",
-                                        "pid": "P585",
-                                        "label": "point in time",
-                                        "datatype": "time"
-                                    },
-                                    "value": {
-                                        "type": "wbdatevariable",
-                                        "columnName": "inception"
-                                    }
-                                }
-                            ],
-                            "references": [
-                                {
-                                    "snaks": [
-                                        {
-                                            "prop": {
-                                                "type": "wbpropconstant",
-                                                "pid": "P248",
-                                                "label": "stated in",
-                                                "datatype": "wikibase-item"
-                                            },
-                                            "value": {
-                                                "type": "wbitemconstant",
-                                                "qid": "Q846596",
-                                                "label": "WorldCat"
-                                            }
-                                        },
-                                        {
-                                            "prop": {
-                                                "type": "wbpropconstant",
-                                                "pid": "P243",
-                                                "label": "OCLC control number",
-                                                "datatype": "external-id"
-                                            },
-                                            "value": {
-                                                "type": "wbstringvariable",
-                                                "columnName": "OCLCID"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "property": {
-                        "type": "wbpropconstant",
-                        "pid": "P1026",
-                        "label": "academic thesis",
-                        "datatype": "wikibase-item"
-                    },
-                    "statements": [
-                        {
-                            "value": {
-                                "type": "wbitemvariable",
-                                "columnName": "newItem"
-                            },
-                            "qualifiers": [],
-                            "references": [
-                                {
-                                    "snaks": [
-                                        {
-                                            "prop": {
-                                                "type": "wbpropconstant",
-                                                "pid": "P248",
-                                                "label": "stated in",
-                                                "datatype": "wikibase-item"
-                                            },
-                                            "value": {
-                                                "type": "wbitemconstant",
-                                                "qid": "Q846596",
-                                                "label": "WorldCat"
-                                            }
-                                        },
-                                        {
-                                            "prop": {
-                                                "type": "wbpropconstant",
-                                                "pid": "P243",
-                                                "label": "OCLC control number",
-                                                "datatype": "external-id"
-                                            },
-                                            "value": {
-                                                "type": "wbstringvariable",
-                                                "columnName": "OCLCID"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "property": {
-                        "type": "wbpropconstant",
-                        "pid": "P5008",
-                        "label": "on focus list of Wikimedia project",
-                        "datatype": "wikibase-item"
-                    },
-                    "statements": [
-                        {
-                            "value": {
-                                "type": "wbitemconstant",
-                                "qid": "Q98970039",
-                                "label": "WikiProject PCC Wikidata Pilot/University of Washington"
-                            },
-                            "qualifiers": [],
-                            "references": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "subject": {
-                "type": "wbitemvariable",
-                "columnName": "degreeSupervisor 1"
-            },
-            "nameDescs": [
-                {
-                    "name_type": "LABEL_IF_NEW",
-                    "value": {
-                        "type": "wbmonolingualexpr",
-                        "language": {
-                            "type": "wblanguageconstant",
-                            "id": "en",
-                            "label": "en"
-                        },
-                        "value": {
-                            "type": "wbstringvariable",
-                            "columnName": "degreeSupervisor 1"
-                        }
-                    }
-                },
-                {
-                    "name_type": "DESCRIPTION_IF_NEW",
-                    "value": {
-                        "type": "wbmonolingualexpr",
-                        "language": {
-                            "type": "wblanguageconstant",
-                            "id": "en",
-                            "label": "en"
-                        },
-                        "value": {
-                            "type": "wbstringconstant",
-                            "value": "college teacher, University of Washington"
-                        }
-                    }
-                }
-            ],
-            "statementGroups": [
-                {
-                    "property": {
-                        "type": "wbpropconstant",
-                        "pid": "P5008",
-                        "label": "on focus list of Wikimedia project",
-                        "datatype": "wikibase-item"
-                    },
-                    "statements": [
-                        {
-                            "value": {
-                                "type": "wbitemconstant",
-                                "qid": "Q98970039",
-                                "label": "WikiProject PCC Wikidata Pilot/University of Washington"
-                            },
-                            "qualifiers": [],
-                            "references": []
-                        }
-                    ]
-                },
-                {
-                    "property": {
-                        "type": "wbpropconstant",
-                        "pid": "P31",
-                        "label": "instance of",
-                        "datatype": "wikibase-item"
-                    },
-                    "statements": [
-                        {
-                            "value": {
-                                "type": "wbitemconstant",
-                                "qid": "Q5",
-                                "label": "human"
                             },
                             "qualifiers": [],
                             "references": []

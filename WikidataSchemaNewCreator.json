@@ -1,0 +1,353 @@
+{
+    "itemDocuments": [
+        {
+            "subject": {
+                "type": "wbitemvariable",
+                "columnName": "creator"
+            },
+            "nameDescs": [
+                {
+                    "name_type": "LABEL_IF_NEW",
+                    "value": {
+                        "type": "wbmonolingualexpr",
+                        "language": {
+                            "type": "wblanguageconstant",
+                            "id": "en",
+                            "label": "en"
+                        },
+                        "value": {
+                            "type": "wbstringvariable",
+                            "columnName": "statedAs"
+                        }
+                    }
+                },
+                {
+                    "name_type": "DESCRIPTION_IF_NEW",
+                    "value": {
+                        "type": "wbmonolingualexpr",
+                        "language": {
+                            "type": "wblanguageconstant",
+                            "id": "en",
+                            "label": "en"
+                        },
+                        "value": {
+                            "type": "wbstringconstant",
+                            "value": "Ph. D., Comparative Literature, University of Washington"
+                        }
+                    }
+                }
+            ],
+            "statementGroups": [
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P31",
+                        "label": "instance of",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemconstant",
+                                "qid": "Q5",
+                                "label": "human"
+                            },
+                            "qualifiers": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P69",
+                        "label": "educated at",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemvariable",
+                                "columnName": "submittedTo"
+                            },
+                            "qualifiers": [
+                                {
+                                    "prop": {
+                                        "type": "wbpropconstant",
+                                        "pid": "P512",
+                                        "label": "academic degree",
+                                        "datatype": "wikibase-item"
+                                    },
+                                    "value": {
+                                        "type": "wbitemconstant",
+                                        "qid": "Q752297",
+                                        "label": "Doctor of Philosophy"
+                                    }
+                                },
+                                {
+                                    "prop": {
+                                        "type": "wbpropconstant",
+                                        "pid": "P812",
+                                        "label": "academic major",
+                                        "datatype": "wikibase-item"
+                                    },
+                                    "value": {
+                                        "type": "wbitemconstant",
+                                        "qid": "Q834903",
+                                        "label": "comparative literature"
+                                    }
+                                }
+                            ],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P512",
+                        "label": "academic degree",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemconstant",
+                                "qid": "Q752297",
+                                "label": "Doctor of Philosophy"
+                            },
+                            "qualifiers": [],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P5008",
+                        "label": "on focus list of Wikimedia project",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemconstant",
+                                "qid": "Q98970039",
+                                "label": "WikiProject PCC Wikidata Pilot/University of Washington"
+                            },
+                            "qualifiers": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P184",
+                        "label": "doctoral advisor",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemvariable",
+                                "columnName": "degreeSupervisor 1"
+                            },
+                            "qualifiers": [],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "value": {
+                                "type": "wbitemvariable",
+                                "columnName": "degreeSupervisor 2"
+                            },
+                            "qualifiers": [],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P1026",
+                        "label": "academic thesis",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbitemvariable",
+                                "columnName": "newItem"
+                            },
+                            "qualifiers": [
+                                {
+                                    "prop": {
+                                        "type": "wbpropconstant",
+                                        "pid": "P407",
+                                        "label": "language of work or name",
+                                        "datatype": "wikibase-item"
+                                    },
+                                    "value": {
+                                        "type": "wbitemvariable",
+                                        "columnName": "language"
+                                    }
+                                }
+                            ],
+                            "references": [
+                                {
+                                    "snaks": [
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P248",
+                                                "label": "stated in",
+                                                "datatype": "wikibase-item"
+                                            },
+                                            "value": {
+                                                "type": "wbitemconstant",
+                                                "qid": "Q846596",
+                                                "label": "WorldCat"
+                                            }
+                                        },
+                                        {
+                                            "prop": {
+                                                "type": "wbpropconstant",
+                                                "pid": "P243",
+                                                "label": "OCLC control number",
+                                                "datatype": "external-id"
+                                            },
+                                            "value": {
+                                                "type": "wbstringvariable",
+                                                "columnName": "OCLCID"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
