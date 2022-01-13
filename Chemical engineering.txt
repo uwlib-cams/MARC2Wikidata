@@ -1,4 +1,4 @@
-245$a	245$b	245$c	100	wikidata	502$b	502$c	502$d	8	300$a	700	856$u	1
+245$a	245$b	245$c	100	wikidata QID	502$b	502$c	502$d	8	300$a	700	856$u	1
 A study of the critical heat flux in an accelerating pool boiling system.			"Adams, Jim Mills."		Ph. D.	University of Washington		820105s1962\\\\xx\\\\\\\bm\\\000\0\eng\d	150 pages			8040574
 The effect of acceleration on the peak heat flux in nucleate pool boiling.			"Adams, Jim Mills,1936-"		M.S. in E.	University of Washington		890607s1961\\\\xx\a\\\\\bm\\\000\0\eng\d	"39, [10] leaves"			19829143
 Design of packed bed catalytic reactors uding a digital computer.			"Almond, James Clayton,1933-"		M.S. in Chem. E.	University of Washington		890603s1959\\\\xx\a\\\\\bm\\\000\0\eng\d	"50, [16] leaves"			19808127
